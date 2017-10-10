@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{569139BB-1779-404B-92C2-DB822867C0C7}|">
+  <MonoDevelop.Ide.ItemProperties.WebMercadao PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebMercadao/Models/Usuario.cs">
+    <Files>
+      <File FileName="WebMercadao/Controllers/APIController.cs" Line="19" Column="35" />
+      <File FileName="WebMercadao/Controllers/AdminController.cs" Line="20" Column="2" />
+      <File FileName="WebMercadao/Controllers/HomeController.cs" Line="14" Column="44" />
+      <File FileName="WebMercadao/App_Start/RouteConfig.cs" Line="12" Column="41" />
+      <File FileName="WebMercadao/Views/Admin/Index.cshtml" Line="1" Column="30" />
+      <File FileName="WebMercadao/Views/Home/Index.cshtml" Line="49" Column="18" />
+      <File FileName="WebMercadao/Models/AppContext.cs" Line="15" Column="9" />
+      <File FileName="WebMercadao/Models/Usuario.cs" Line="8" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
