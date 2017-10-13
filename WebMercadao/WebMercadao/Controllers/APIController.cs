@@ -16,7 +16,7 @@ namespace WebMercadao.Controllers
 
         public Object getAllClients()
         {
-            return new JSON();    
+            return null;    
         }
     }
 }

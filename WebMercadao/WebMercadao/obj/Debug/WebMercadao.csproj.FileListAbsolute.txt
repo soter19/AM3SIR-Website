@@ -17,3 +17,7 @@
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/obj/Debug/WebMercadao.csproj.CoreCompileInputs.cache
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/obj/Debug/WebMercadao.dll
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/obj/Debug/WebMercadao.pdb
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.dll
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.SqlServer.dll
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.xml
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.SqlServer.xml
