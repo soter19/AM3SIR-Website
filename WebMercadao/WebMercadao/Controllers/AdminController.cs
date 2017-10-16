@@ -8,12 +8,35 @@ namespace WebMercadao.Controllers
 {
     public class AdminController : Controller
     {
+
         public ActionResult Index()
         {
-            return View ();
+            return View();
         }
 
-        public ActionResult Noticias(){
+
+        public ActionResult Atendentes()
+        {
+            return View();
+        }
+
+        public ActionResult Clientes()
+        {
+            return View();
+        }
+
+        public ActionResult Mercados()
+        {
+            return View();
+        }
+
+        public ActionResult Produtos()
+        {
+            return View();
+        }
+
+        public ActionResult HistoricoDeCompra()
+        {
             return View();
         }
     }

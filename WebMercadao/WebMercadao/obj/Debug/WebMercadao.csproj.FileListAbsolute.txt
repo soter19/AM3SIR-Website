@@ -1,5 +1,7 @@
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/WebMercadao.dll
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/WebMercadao.pdb
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.dll
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.SqlServer.dll
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/Microsoft.Web.Infrastructure.dll
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/System.Web.Helpers.dll
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/System.Web.Mvc.dll
@@ -13,11 +15,9 @@
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/System.Web.WebPages.xml
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/System.Web.WebPages.Razor.xml
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/System.Web.Mvc.xml
-/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/obj/Debug/WebMercadao.csprojResolveAssemblyReference.cache
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.xml
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.SqlServer.xml
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/obj/Debug/WebMercadao.csproj.CoreCompileInputs.cache
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/obj/Debug/WebMercadao.dll
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/obj/Debug/WebMercadao.pdb
-/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.dll
-/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.SqlServer.dll
-/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.xml
-/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/bin/EntityFramework.SqlServer.xml
+/Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao/obj/Debug/WebMercadao.csprojResolveAssemblyReference.cache

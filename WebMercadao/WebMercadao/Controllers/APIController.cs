@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Net;
+
 
 namespace WebMercadao.Controllers
 {
-    public class APIController : Controller
+    public class APIController : ApiController
     {
         
         public Object Index()
