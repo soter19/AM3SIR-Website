@@ -11,8 +11,6 @@ namespace WebMercadao.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["username"] = "Soter";
-
             return View();
         }
     }

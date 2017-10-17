@@ -14,7 +14,6 @@ namespace WebMercadao.Controllers
             return View();
         }
 
-
         public ActionResult Atendentes()
         {
             return View();
