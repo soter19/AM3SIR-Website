@@ -17,8 +17,11 @@ namespace WebMercadao.Controllers
         // GET: Usuarios
         public ActionResult Index()
         {
+            AppContext context = new AppContext();
+            s
             return View(db.Usuarios.ToList());
         }
+  
 
         // GET: Usuarios/Details/5
         public ActionResult Details(int? id)

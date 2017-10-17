@@ -8,12 +8,10 @@ namespace WebMercadao.Models
 {
     public class AppContext : DbContext
     {
-        public AppContext() : base()
+        public AppContext() : base("mercadao")
         {
         }
 
-        public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Mercado> Mercados { get; set; }
         public DbSet<Produto> Produtos { get; set; }
 
     }

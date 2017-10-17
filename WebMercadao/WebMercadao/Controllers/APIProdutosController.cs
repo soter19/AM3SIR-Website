@@ -20,11 +20,13 @@ namespace WebMercadao.Controllers
         // GET: api/APIProdutos/5
         public string Get(string id)
         {
+            Produto p = new Produto();
+
             switch (id)
             {
                 case "1":
                     AppContext ac = new AppContext();
-                    ac.Produtos.Add(new Produto("2"));
+                    ac.Produtos.Add(new Produto());
                     ac.SaveChanges();
                     return "fodase";
                     //return JsonConvert.SerializeObject(new Produto(id), Newtonsoft.Json.Formatting.Indented);
