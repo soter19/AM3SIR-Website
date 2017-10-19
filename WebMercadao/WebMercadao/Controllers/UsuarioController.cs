@@ -116,7 +116,7 @@ namespace WebMercadao.Controllers
 
             db.Usuarios.Remove(usuario);
             db.SaveChanges();
-            return RedirectToAction("Usuarios", "Admin", new { area = "" });
+            return RedirectToAction("Clientes", "Admin", new { area = "" });
         }
 
         // POST: Usuario/Delete/5

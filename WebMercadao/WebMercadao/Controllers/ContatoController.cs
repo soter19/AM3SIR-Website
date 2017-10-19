@@ -58,6 +58,19 @@ namespace WebMercadao.Controllers
             return View(contato);
         }
 
+        [HttpPost]
+        public ActionResult CreateFromHome([Bind(Include = "Id,Email")] Contato contato)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Contatos.Add(contato);
+                db.SaveChanges();
+                return RedirectToAction("Index", "Home", new { area = "" });
+            }
+
+            return View(contato);
+        }
+
         // GET: Contato/Edit/5
         public ActionResult Edit(int? id)
         {

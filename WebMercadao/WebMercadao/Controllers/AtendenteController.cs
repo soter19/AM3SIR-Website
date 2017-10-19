@@ -100,7 +100,9 @@ namespace WebMercadao.Controllers
             {
                 return HttpNotFound();
             }
-            return View(atendente);
+            db.Atendentes.Remove(atendente);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         // POST: Atendente/Delete/5
