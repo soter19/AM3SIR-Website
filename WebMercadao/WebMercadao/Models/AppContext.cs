@@ -12,7 +12,12 @@ namespace WebMercadao.Models
         {
         }
 
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Mercado> Mercados { get; set; }
         public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Atendente> Atendentes { get; set; }
+        public DbSet<Noticia> Noticias { get; set; }
+        public DbSet<Contato> Contatos { get; set; }
 
     }
 }

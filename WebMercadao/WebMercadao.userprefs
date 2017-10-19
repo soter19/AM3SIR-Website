@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{569139BB-1779-404B-92C2-DB822867C0C7}|">
   <MonoDevelop.Ide.ItemProperties.WebMercadao PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebMercadao/Controllers/APIController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebMercadao/Controllers/AdminController.cs">
     <Files>
       <File FileName="WebMercadao/Controllers/AdminController.cs" Line="1" Column="1" />
-      <File FileName="WebMercadao/Controllers/APIController.cs" Line="6" Column="18" />
-      <File FileName="WebMercadao/Controllers/APIClienteController.cs" Line="9" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

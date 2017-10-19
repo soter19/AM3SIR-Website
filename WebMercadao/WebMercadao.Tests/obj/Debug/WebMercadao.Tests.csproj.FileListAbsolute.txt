@@ -23,3 +23,38 @@
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao.Tests/obj/Debug/WebMercadao.Tests.csproj.CoreCompileInputs.cache
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao.Tests/obj/Debug/WebMercadao.Tests.dll
 /Users/ohm/Google Drive/FIAP/AM/Mercadao/Website/WebMercadao/WebMercadao.Tests/obj/Debug/WebMercadao.Tests.pdb
+C:\Users\soter\source\repos\AM3SIR-Website\WebMercadao\WebMercadao.Tests\obj\Debug\WebMercadao.Tests.csproj.CoreCompileInputs.cache
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\WebMercadao.Tests.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\WebMercadao.Tests.pdb
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\nunit.framework.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Helpers.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Mvc.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Razor.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.WebPages.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\WebMercadao.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Http.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\EntityFramework.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Http.WebHost.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Net.Http.Formatting.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\Newtonsoft.Json.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\WebMercadao.pdb
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\WebMercadao.dll.config
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Razor.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Helpers.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.WebPages.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Mvc.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\nunit.framework.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Http.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\EntityFramework.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Web.Http.WebHost.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\System.Net.Http.Formatting.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\bin\Debug\Newtonsoft.Json.xml
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\obj\Debug\WebMercadao.Tests.csprojResolveAssemblyReference.cache
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\obj\Debug\WebMercadao.Tests.csproj.CoreCompileInputs.cache
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\obj\Debug\WebMercadao.Tests.dll
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao.Tests\obj\Debug\WebMercadao.Tests.pdb

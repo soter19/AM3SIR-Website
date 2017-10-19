@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@model WebMercadao.Models.MainViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -86,13 +92,25 @@
       <div class="modal-dialog">
         <div class="loginmodal-container">
           <h1>Registre-se</h1><br>
-          <form>
-          <input type="text" name="user" placeholder="Usuário">
-          <input type="text" name="email" placeholder="E-mail">
-          <input type="password" name="pass" placeholder="Senha">
-          <input type="password" name="passConfirm" placeholder="Repita a Senha">
-          <input type="submit" name="login" class="login loginmodal-submit" value="Cadastrar">
-          </form>
+            @using (Html.BeginForm("CreateFromHome", "Usuario"))
+            {
+                <div class="form-group">
+                    <label>Nome</label>
+                    @Html.TextBoxFor(m => m.Usuario.Nome, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>E-mail</label>
+                    @Html.TextBoxFor(m => m.Usuario.Email, new { @class = "form-control", rows = "3" })
+                </div>
+                <div class="form-group">
+                    <label>Senha</label>
+                    @Html.TextBoxFor(m => m.Usuario.Senha, new { @class = "form-control", rows = "3" })
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Salvar" class="btn btn-light" />
+                </div>
+            }
         </div>
       </div>
     </div>
@@ -177,16 +195,30 @@
     <section class="cta">
       <div class="cta-content">
         <div class="container">
-          <h2>Inscreva-se</h2>
-          <div class="col-md-5">
-            <div class="input-group">
-              <span class="input-group-addon" id="basic-addon1">Na nossa Newsletter</span>
-              <input type="text" class="form-control" placeholder="maria@dominio.com.br">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 style="color:white;text-align:center">Inscreva-se</h4>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Na nossa Newsletter</span>
+                        <input type="text" class="form-control" placeholder="maria@dominio.com.br">
+                    </div>
+                    <div class="input-group" style="margin-top:20px;text-align:center;">
+                        <button style="margin: 0 auto;" class="btn btn-success">Enviar</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 style="color:white;text-align:center">Noticias</h4>
+                    <div class="list-group">
+                        @foreach (var item in Model.Noticias)
+                {
+                            <a class="list-group-item">
+                                <h4>@item.Titulo</h4>
+                                <p>@item.Conteudo</p>
+                            </a>
+                }
+                    </div>
+                </div>
             </div>
-            <div class="input-group" style="margin-top:20px">
-              <button class="btn btn-success">Enviar</button>
-            </div>
-          </div>
         </div>
       </div>
       <div class="overlay"></div>
