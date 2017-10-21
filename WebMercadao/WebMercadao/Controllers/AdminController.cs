@@ -57,5 +57,12 @@ namespace WebMercadao.Controllers
             mvm.Contatos = db.Contatos.ToList();
             return View("Contatos", mvm);
         }
-    }
+
+		public ActionResult Investimentos()
+		{
+			MainViewModel mvm = new MainViewModel();
+			mvm.Investimentos = db.Investimentos.ToList();
+			return View("Investimentos", mvm);
+		}
+	}
 }

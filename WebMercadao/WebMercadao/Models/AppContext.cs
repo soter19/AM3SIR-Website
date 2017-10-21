@@ -18,6 +18,6 @@ namespace WebMercadao.Models
         public DbSet<Atendente> Atendentes { get; set; }
         public DbSet<Noticia> Noticias { get; set; }
         public DbSet<Contato> Contatos { get; set; }
-
-    }
+		public DbSet<Investimento> Investimentos { get; set; }
+	}
 }
