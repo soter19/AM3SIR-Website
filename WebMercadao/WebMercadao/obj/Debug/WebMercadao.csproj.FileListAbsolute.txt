@@ -145,3 +145,4 @@ Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao\bin\System.Web.Mvc.xml
 Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.csproj.CoreCompileInputs.cache
 Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.dll
 Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.pdb
+Z:\Downloads\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.csprojResolveAssemblyReference.cache
