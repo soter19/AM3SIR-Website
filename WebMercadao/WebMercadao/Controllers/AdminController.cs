@@ -13,6 +13,7 @@ namespace WebMercadao.Controllers
 
         public ActionResult Index()
         {
+            ViewBag.ErroLogin = "";
             return View();
         }
 
