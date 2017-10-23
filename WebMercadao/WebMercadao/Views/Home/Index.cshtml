@@ -36,7 +36,8 @@
 
   <body id="page-top">
 
-    <!-- Navigation -->
+      
+      <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Mercadão</a>
@@ -62,6 +63,20 @@
           </ul>
         </div>
       </div>
+        @if (ViewBag.errorInvestimento == "")
+        {
+            <div class="alert alert-success">
+                <a href="#" class="close" data-dismiss="alert">×</a>
+                <strong>Sucesso!</strong> Investimento efetuado com sucesso!
+            </div>
+        }
+        else if(ViewBag.errorInvestimento != null)
+        {
+            <div class="alert alert-danger">
+                <a href="#" class="close" data-dismiss="alert">×</a>
+                <strong>Erro!</strong> @ViewBag.errorInvestimento
+            </div>
+        }
     </nav>
 
     <header class="masthead">
@@ -117,6 +132,33 @@
             }
         </div>
       </div>
+    </div>
+
+    <div class="modal fade" id="investimento-modal" tabindex="-1" role="dialog" aria-labelledby="investimentoModal" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="loginmodal-container">
+                <h1>Confirmar Investimento</h1><br>
+                @using (Html.BeginForm("Create", "RegistroDeCompra"))
+        {
+                    <input type="hidden" id="investimentoId" name="investimentoId">
+                    <p id="investimentoNome"></p>
+                    <p id="investimentoValor"></p>
+
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        @Html.TextBoxFor(m => m.Usuario.Email, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Senha</label>
+                        @Html.PasswordFor(m => m.Usuario.Senha, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Confirmar Compra" class="btn btn-light" />
+                    </div>
+                }
+            </div>
+        </div>
     </div>
 
     <section class="download bg-primary text-center" id="download">
@@ -238,6 +280,38 @@
       <div class="overlay"></div>
     </section>
 
+    <section class="features">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 style="color:white;text-align:center">Planos</h4>
+                            @foreach (var item in Model.Investimentos)
+                            {
+                                <div class="card" style="width: 20rem;padding: 10px;margin: 10px;display: inline-block;">
+                                    <i class="icon-basket text-primary"></i>
+                                    <div class="card-block">
+                                        <h4 class="card-title">@item.Name</h4>
+                                        <p class="card-text">@item.Descricao - Disponiveis: @item.Quantidade</p>
+                                        <p class="card-text">Valor: R$ @item.Valor</p>
+                                        @if (item.Quantidade > 0)
+                                        {
+                                            <a class="btn btn-primary" data-toggle="modal" data-target="#investimento-modal" onclick="prepareInvestimentoModal({id:@item.Id, nome:'@item.Name', preco: @item.Valor})">Comprar!</a>
+                                        }
+                                        else {
+                                            <p style="color:red">Pacote Indisponivel no momento</p>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section> 
+
     <section class="contact bg-primary" id="contact">
       <div class="container">
         <h2>Nos siga nas redes sociais</h2>
@@ -288,6 +362,14 @@
 
     <!-- Custom scripts for this template -->
     <script src="~/Content/js/new-age.min.js"></script>
+
+    <script>
+        function prepareInvestimentoModal(investimento) {
+            document.getElementById('investimentoId').value = investimento.id
+            document.getElementById('investimentoNome').innerHTML = "Plano Escolhido: " + investimento.nome
+            document.getElementById('investimentoValor').innerHTML = "R$" + investimento.preco + ",00"
+        }
+    </script>
 
   </body>
 

@@ -65,6 +65,14 @@ namespace WebMercadao.Controllers
 			mvm.Investimentos = db.Investimentos.ToList();
 			return View("Investimentos", mvm);
 		}
+
+        public ActionResult RegistrosDeCompras()
+        {
+            MainViewModel mvm = new MainViewModel();
+            mvm.RegistrosDeCompras = db.RegistrosDeCompras.ToList();
+            return View("RegistrosDeCompras", mvm);
+        }
+
         [HttpPost]
         public ActionResult Entrar(MainViewModel mvm)
         {

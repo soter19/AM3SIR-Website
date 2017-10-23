@@ -14,6 +14,7 @@ namespace WebMercadao.Models
         public Noticia Noticia { get; set; }
         public Contato Contato { get; set; }
 		public Investimento Investimento { get; set; }
+        public RegistroDeCompra RegistroDeCompra { get; set; }
 
 
 		public IEnumerable<Atendente> Atendentes { get; set; }
@@ -23,6 +24,7 @@ namespace WebMercadao.Models
         public IEnumerable<Noticia> Noticias { get; set; }
         public IEnumerable<Contato> Contatos { get; set; }
 		public IEnumerable<Investimento> Investimentos { get; set; }
+        public IEnumerable<RegistroDeCompra> RegistrosDeCompras { get; set; }
 
 		public MainViewModel()
         {
@@ -33,6 +35,7 @@ namespace WebMercadao.Models
             Noticia = new Noticia();
             Contato = new Contato();
 			Investimento = new Investimento();
+            RegistroDeCompra = new RegistroDeCompra();
         }
     }
 }

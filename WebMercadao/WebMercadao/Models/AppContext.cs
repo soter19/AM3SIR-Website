@@ -19,5 +19,6 @@ namespace WebMercadao.Models
         public DbSet<Noticia> Noticias { get; set; }
         public DbSet<Contato> Contatos { get; set; }
 		public DbSet<Investimento> Investimentos { get; set; }
+        public DbSet<RegistroDeCompra> RegistrosDeCompras { get; set; }
 	}
 }

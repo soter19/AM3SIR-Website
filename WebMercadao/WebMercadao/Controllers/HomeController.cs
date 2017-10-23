@@ -16,6 +16,10 @@ namespace WebMercadao.Controllers
         {
             MainViewModel mvm = new MainViewModel();
             mvm.Noticias = db.Noticias.ToList();
+            mvm.Investimentos = db.Investimentos.ToList();
+            ViewBag.errorInvestimento = null;
+            if (TempData["errorInvestimento"] != null && TempData.ContainsKey("errorInvestimento"))
+                ViewBag.errorInvestimento = TempData["errorInvestimento"];
             return View("Index", mvm);
         }
     }

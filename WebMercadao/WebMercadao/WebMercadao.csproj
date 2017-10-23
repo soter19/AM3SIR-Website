@@ -103,6 +103,7 @@
     <Folder Include="Content\js\" />
     <Folder Include="Scripts\" />
     <Folder Include="Views\Contato\" />
+    <Folder Include="Views\RegistroDeCompra\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="Controllers\APIMercadoController.cs" />
     <Compile Include="Controllers\NoticiaController.cs" />
     <Compile Include="Controllers\ProdutoController.cs" />
+    <Compile Include="Controllers\RegistroDeCompraController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -130,6 +132,7 @@
     <Compile Include="Models\MainViewModel.cs" />
     <Compile Include="Models\Mercado.cs" />
     <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\RegistroDeCompra.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Models\AppContext.cs" />
   </ItemGroup>
@@ -333,6 +336,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Admin\Investimentos.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Admin\RegistrosDeCompras.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
