@@ -112,6 +112,7 @@
     <Compile Include="Controllers\AtendenteController.cs" />
     <Compile Include="Controllers\ContatoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InvestimentoController.cs" />
     <Compile Include="Controllers\MercadoController.cs" />
     <Compile Include="Controllers\APIMercadoController.cs" />
     <Compile Include="Controllers\NoticiaController.cs" />
@@ -124,6 +125,7 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Models\Atendente.cs" />
     <Compile Include="Models\Contato.cs" />
+    <Compile Include="Models\Investimento.cs" />
     <Compile Include="Models\Noticia.cs" />
     <Compile Include="Models\MainViewModel.cs" />
     <Compile Include="Models\Mercado.cs" />
@@ -328,6 +330,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Admin\Contatos.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Admin\Investimentos.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
