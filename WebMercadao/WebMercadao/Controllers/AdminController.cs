@@ -65,5 +65,36 @@ namespace WebMercadao.Controllers
 			mvm.Investimentos = db.Investimentos.ToList();
 			return View("Investimentos", mvm);
 		}
-	}
+        [HttpPost]
+        public ActionResult Entrar(MainViewModel mvm)
+        {
+            using (var ctx = new AppContext())
+            {
+
+
+                if (mvm.Usuario.Email != null && mvm.Usuario.Senha != null && mvm.Usuario.Email != "" && mvm.Usuario.Senha != "")
+                {
+                    Usuario usuarioAutenticado = null;
+
+                    try
+                    {
+                        usuarioAutenticado = ctx.Usuarios.Where(usuario =>
+                            usuario.Email == mvm.Usuario.Email &&
+                            usuario.Senha == mvm.Usuario.Senha).First();
+
+                        return RedirectToAction("Clientes", "Admin");
+                    }
+                    catch (Exception e)
+                    {
+                        ViewBag.ErroLogin = "Usuário ou senha inválidos.";
+                        return View("Index");
+                    }
+                }
+
+                ViewBag.ErroLogin = "Preencha os campos obrigatórios.";
+                return View("Index");
+
+            }
+        }
+    }
 }
