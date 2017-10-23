@@ -55,6 +55,10 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Index", "Admin")">Admin</a>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -208,7 +212,13 @@
                             <input type="submit" value="Salvar" class="btn btn-light" />
                         </div>
                     }
-             
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Na nossa Newsletter</span>
+                        <input type="text" class="form-control" placeholder="maria@dominio.com.br">
+                    </div>
+                    <div class="input-group" style="margin-top:20px;text-align:center;">
+                        <button style="margin: 0 auto;" class="btn btn-success">Enviar</button>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <h4 style="color:white;text-align:center">Noticias</h4>
@@ -227,37 +237,6 @@
       </div>
       <div class="overlay"></div>
     </section>
-
-  	<section class="features">
-  		<div class="content">
-  			<div class="container">
-			 <div class="row">
-  				<div class="col-md-4">
-  						<h4 style="color:white;text-align:center">Planos</h4>
-					  	<div class="list-group">
-					  		@foreach (var item in Model.Investimentos)
-						  {
-					  		<a class="list-group-item">
-								<div class="feature-item">
-									<i class="icon-basket text-primary"></i>
-									<h3>@item.Name</h3>
-									<p class="text-muted">@item.Descricao</p>
-									<p class="text-muted">Valor: R$ @item.Valor por mês</p>
-								</div>
-							  </a>
-					  		<div class="form-group">
-					  			<input type="submit" value="Comprar" class="btn btn-light" />
-					  		</div>
-						  }
-						</div>
-					</div>
-				 </div>
-			 </div>
-		</div>
-	<div class="overlay"></div>
-  </section>
-
-
 
     <section class="contact bg-primary" id="contact">
       <div class="container">

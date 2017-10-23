@@ -17,7 +17,6 @@ namespace WebMercadao.Controllers
         // GET: Investimento
         public ActionResult Index()
         {
-         //   return View(db.Investimentos.ToList());
 			return RedirectToAction("Investimentos", "Admin");
 		}
 
