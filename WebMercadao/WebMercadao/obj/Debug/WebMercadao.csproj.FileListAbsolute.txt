@@ -173,7 +173,7 @@ C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\bin\System.
 C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\bin\System.Web.WebPages.xml
 C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\bin\System.Web.WebPages.Razor.xml
 C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\bin\System.Web.Mvc.xml
-C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.csprojResolveAssemblyReference.cache
 C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.csproj.CoreCompileInputs.cache
 C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.dll
 C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.pdb
+C:\Users\kalunga\Desktop\BELE\AM3SIR-Website\WebMercadao\WebMercadao\obj\Debug\WebMercadao.csprojResolveAssemblyReference.cache
